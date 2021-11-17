@@ -6,3 +6,8 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "practica_dns.com" {
+    type master;
+    file "/volume/db.practica_dns.com";
+};
+
