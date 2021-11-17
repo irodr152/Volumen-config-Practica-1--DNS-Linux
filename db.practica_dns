@@ -9,8 +9,8 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 
 @       IN      NS      ns.practica_dns.com.
-@       IN      A       192.168.1.254
+@       IN      A       10.1.0.254
 @       IN      AAAA    ::1
-ns      IN      A       192.168.1.10
-practica IN	    A	    172.18.0.11
+practica IN	    A	    10.0.1.254
+www IN  CNAME   practica_dns.com     
 @   IN  TXT "QUE ACABE EL SUFRIMIENTO"
